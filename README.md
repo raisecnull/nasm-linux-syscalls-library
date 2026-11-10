@@ -157,7 +157,7 @@ python3 test_echo.py     # PASS/FAIL for short, binary and 100 KB payloads
 - Assembler: NASM
 - Architecture: x86-64 Linux only (not 32-bit, not other architectures)
 - Syscall table: ends at `SYS_LSM_LIST_MODULES` (461); newer kernel syscalls may be missing
-- Tested on: [YOUR DISTRO], kernel [OUTPUT OF `uname -r`], NASM [OUTPUT OF `nasm -v`]
+- Tested on: Ubuntu, kernel 7.0.0-42-generic, NASM version 2.16.01
 
 ## Contributing
 
